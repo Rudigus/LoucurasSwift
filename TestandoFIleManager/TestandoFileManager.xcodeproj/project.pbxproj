@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5755E09F24F582CA00A5AA1C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5755E09E24F582CA00A5AA1C /* README.md */; };
 		57D1033C24F55E1A0039A13E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1033B24F55E1A0039A13E /* AppDelegate.swift */; };
 		57D1033E24F55E1A0039A13E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1033D24F55E1A0039A13E /* SceneDelegate.swift */; };
 		57D1034024F55E1A0039A13E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1033F24F55E1A0039A13E /* ViewController.swift */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		57D1033824F55E1A0039A13E /* TestandoFIleManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestandoFIleManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5755E09E24F582CA00A5AA1C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		57D1033824F55E1A0039A13E /* TestandoFileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestandoFileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D1033B24F55E1A0039A13E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57D1033D24F55E1A0039A13E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		57D1033F24F55E1A0039A13E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +52,8 @@
 		57D1032F24F55E1A0039A13E = {
 			isa = PBXGroup;
 			children = (
-				57D1033A24F55E1A0039A13E /* TestandoFIleManager */,
+				5755E09E24F582CA00A5AA1C /* README.md */,
+				57D1033A24F55E1A0039A13E /* TestandoFileManager */,
 				57D1033924F55E1A0039A13E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +61,12 @@
 		57D1033924F55E1A0039A13E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57D1033824F55E1A0039A13E /* TestandoFIleManager.app */,
+				57D1033824F55E1A0039A13E /* TestandoFileManager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57D1033A24F55E1A0039A13E /* TestandoFIleManager */ = {
+		57D1033A24F55E1A0039A13E /* TestandoFileManager */ = {
 			isa = PBXGroup;
 			children = (
 				5755E09D24F579AB00A5AA1C /* Controller */,
@@ -72,7 +75,7 @@
 				57D1034424F55E1B0039A13E /* Assets.xcassets */,
 				57D1034924F55E1B0039A13E /* Info.plist */,
 			);
-			path = TestandoFIleManager;
+			path = TestandoFileManager;
 			sourceTree = "<group>";
 		};
 		57D1035124F55E550039A13E /* Model */ = {
@@ -94,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57D1033724F55E1A0039A13E /* TestandoFIleManager */ = {
+		57D1033724F55E1A0039A13E /* TestandoFileManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57D1034C24F55E1B0039A13E /* Build configuration list for PBXNativeTarget "TestandoFIleManager" */;
+			buildConfigurationList = 57D1034C24F55E1B0039A13E /* Build configuration list for PBXNativeTarget "TestandoFileManager" */;
 			buildPhases = (
 				57D1033424F55E1A0039A13E /* Sources */,
 				57D1033524F55E1A0039A13E /* Frameworks */,
@@ -106,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = TestandoFIleManager;
+			name = TestandoFileManager;
 			productName = TestandoFIleManager;
-			productReference = 57D1033824F55E1A0039A13E /* TestandoFIleManager.app */;
+			productReference = 57D1033824F55E1A0039A13E /* TestandoFileManager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 57D1033324F55E1A0039A13E /* Build configuration list for PBXProject "TestandoFIleManager" */;
+			buildConfigurationList = 57D1033324F55E1A0039A13E /* Build configuration list for PBXProject "TestandoFileManager" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57D1033724F55E1A0039A13E /* TestandoFIleManager */,
+				57D1033724F55E1A0039A13E /* TestandoFileManager */,
 			);
 		};
 /* End PBXProject section */
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5755E09F24F582CA00A5AA1C /* README.md in Resources */,
 				57D1034524F55E1B0039A13E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,8 +300,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rudigus.TestandoFIleManager;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = rudigus.TestandoFileManager;
+				PRODUCT_NAME = TestandoFileManager;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,8 +318,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rudigus.TestandoFIleManager;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = rudigus.TestandoFileManager;
+				PRODUCT_NAME = TestandoFileManager;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57D1033324F55E1A0039A13E /* Build configuration list for PBXProject "TestandoFIleManager" */ = {
+		57D1033324F55E1A0039A13E /* Build configuration list for PBXProject "TestandoFileManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57D1034A24F55E1B0039A13E /* Debug */,
@@ -333,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57D1034C24F55E1B0039A13E /* Build configuration list for PBXNativeTarget "TestandoFIleManager" */ = {
+		57D1034C24F55E1B0039A13E /* Build configuration list for PBXNativeTarget "TestandoFileManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57D1034D24F55E1B0039A13E /* Debug */,

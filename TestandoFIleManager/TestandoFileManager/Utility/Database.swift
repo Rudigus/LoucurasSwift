@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// - Tag: Database
 class Database {
     
     var fileURL: URL

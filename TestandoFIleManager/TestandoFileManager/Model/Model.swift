@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// - Tag: CelestialBody
 struct CelestialBody: Codable {
     var terra: HrefCelestialBody
     var marte: HrefCelestialBody
