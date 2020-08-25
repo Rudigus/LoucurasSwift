@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.systemPurple
         // Mock
         let terra = HrefCelestialBody(href: ["terra1", "terra2"])
         let marte = HrefCelestialBody(href: ["marte1", "marte2"])
