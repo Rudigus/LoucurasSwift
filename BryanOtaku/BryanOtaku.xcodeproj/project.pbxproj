@@ -26,7 +26,7 @@
 		575F1B8324F49A1600ABD630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		575F1B8624F49A1600ABD630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		575F1B8824F49A1600ABD630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		575F1B8E24F49A4800ABD630 /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiController.swift; path = ../ApiController.swift; sourceTree = "<group>"; };
+		575F1B8E24F49A4800ABD630 /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
 		57E6EB7824F4A2B000DCE223 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5754ED3224F4AA0B00E047C4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				575F1B8E24F49A4800ABD630 /* ApiController.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		575F1B6E24F49A1500ABD630 = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				57E6EB7524F4A22100DCE223 /* Model */,
-				57E6EB7424F4A21900DCE223 /* Utility */,
+				5754ED3224F4AA0B00E047C4 /* Utility */,
 				575F1B7A24F49A1500ABD630 /* AppDelegate.swift */,
 				575F1B7C24F49A1500ABD630 /* SceneDelegate.swift */,
 				575F1B7E24F49A1500ABD630 /* ViewController.swift */,
@@ -71,14 +79,6 @@
 				575F1B8824F49A1600ABD630 /* Info.plist */,
 			);
 			path = BryanOtaku;
-			sourceTree = "<group>";
-		};
-		57E6EB7424F4A21900DCE223 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				575F1B8E24F49A4800ABD630 /* ApiController.swift */,
-			);
-			path = Utility;
 			sourceTree = "<group>";
 		};
 		57E6EB7524F4A22100DCE223 /* Model */ = {
